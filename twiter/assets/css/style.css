@@ -1,0 +1,93 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	min-width: 960px;
+	width: 100%;
+	float: left;
+	font-family: Arial,sans-serif;
+}
+.header{
+		width: 100%;
+	float: left;
+	z-index: 1000;
+	background-color: #FFF;
+	height: 46px;
+}
+.fixed_header{
+		width: 100%;
+	float: left;
+	z-index: 1000;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 47px;
+	background-color: #FFF;
+}
+.content_header{
+	margin: auto;
+	height: 47px;
+	background-color: #FFF;
+
+}
+.container_homepage{
+	background-image: url('http://abs.twimg.com/b/front_page/v1/JP_ASIA_4.jpg');
+    padding: 0px;
+    width: 960px;
+    height: 640px;
+    margin: auto;
+}
+/*List action*/
+.list-action{
+	float: left;
+	width: auto;
+	height: 47px;
+}
+.ul_list-action{
+	padding: 0px;
+	margin: 0px;
+}
+.li_action{
+	list-style: none;
+	float: left;
+    overflow: hidden;
+    height: 47px;
+}
+.li_action .action_header_home{
+    color: #66757f;
+    display: block;
+    padding: 2px 14px;
+    border-bottom: 5px solid #1b95e0;
+    transition: all .15s ease-in-out;
+    text-align: center;
+    line-height: 42px;
+}
+.li_action .action_header_home:hover{
+	
+}
+.li_action .action_header_home:hover,.li_action .action_header_home:focus,.li_action .action_header_home:active{
+	color: #1da1f2;
+	text-decoration: none;
+	height: 47px;
+}
+.li_action .action_header_home i.icon-action.fa-twitter{
+	color: #1da1f2;
+    font-size: 22px;
+    position: relative;
+    margin-right: 3px;
+    top: 2px;
+}
+.li_action .action_header_home .text-action{
+	font-size: 13px;
+}
+/*Body*/
+.body{
+	width: 100%;
+	height: auto;
+	float: left;
+}
+.content-body{
+	width: 960px;
+	margin: auto;
+}

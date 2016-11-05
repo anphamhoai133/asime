@@ -1,0 +1,10 @@
+@media screen and (min-width: 1280px){
+	.content_header{
+	    max-width: 1170px;
+	}
+}
+@media screen and (max-width: 1279px) and (min-width: 960px){
+	.content_header{
+	    max-width: 890px;
+	}
+}
