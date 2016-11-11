@@ -1,0 +1,50 @@
+/*Font Size*/
+.f12{
+	font-size: 12px;
+}
+.f13{
+	font-size: 13px;
+}
+.f14{
+	font-size: 14px;
+}
+/*Padding*/
+.p0{
+	padding: 0px;
+}
+
+/*Margin*/
+
+/*Margin Top*/
+.mt10{
+	margin-top: 10px;
+}
+.mt60{
+	margin-top: 60px;
+}
+/*Margin Bottom*/
+.mb0{
+	margin-bottom: 0px;
+}
+.mb15{
+	margin-bottom: 15px;
+}
+.mb25{
+	margin-bottom: 25px;
+}
+/*Margin Left*/
+.ml14{
+	margin-left: 14px;
+}
+
+/*Display*/
+.inline{
+	display: inline;
+}
+/* Color */
+.cl66757f{
+	color: #66757f;
+}
+.cl8899a6{
+	color: #8899a6;
+}
